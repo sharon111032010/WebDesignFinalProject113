@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>寵物中途之家</title>
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+    <div class="first">
+        <div class="first_left">
+            <div class="logo"> <!-- logo -->
+                <a href="#"><img src="img\logo.png" alt="logo" height="100%"></a>
+            </div>
+            <div class="first_left_a">
+                <div class="line pageintr">
+                    <a href="about.html" >關於中途之家</a>
+                </div> <!-- 與寵物相關選項(介紹、已領養、募款) -->
+                <div class="line adopted">
+                    <a href="new_beginning.html" >幸福新開始</a>
+                </div> <!-- 簡介 + 相關人員 -->
+                <div class="line fundraising">
+                    <a href="donate.html">讓愛延續</a>
+                </div> <!-- 募款 -->
+            </div>
+        </div>
+        <div class="first_right">
+            <!-- <div class="line language">
+                <label for="language">語言選擇</label>
+                <select id="options_language">
+                    <option value="繁中" selected>繁體中文</option>
+                    <option value="簡中">簡體中文</option>
+                    <option value="英文">English</option>
+                    <option value="日文">日本語</option>
+                    <option value="韓文">한국어</option>
+                </select>
+            </div> -->
+            <div class="line login">
+                <a href="login.html" >登入</a>
+            </div>
+            <div class="line signup">
+                <a href="signUp.html" >註冊</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="second">
+        <div class="second_left">
+            <div class="articleTitle">
+                <h1 style="font-size: 4vh;">領養改變生命，愛從此開始</h1>
+            </div>
+            <div class="articleContent">
+                <p>給流浪動物一個溫暖的家，牠們的生命因為你的愛而閃耀。</p>
+                <p>你知道嗎？每一隻流浪動物都有過孤單無助的日子，然而在你開放的心扉裡，
+                    牠們找到了希望。領養不僅是給牠們新的開始，也是給自己帶來無限的陪伴與愛。</p>
+                <p>讓我們一起改變流浪動物的命運，讓愛傳遞，讓生命因為你的決定而不再孤單。</p>
+            </div> <!-- 領養文章前中段 -->
+            <div class="adoptionFrame">
+                <div class="adoptionFrame1">已被領養數量</div>
+                <div class="adoptionFrame2">待領養數量</div>
+            </div>
+            <!-- <div class="line2 articleE">讓我們一起改變流浪動物的命運，讓愛傳遞，讓生命因為你的決定而不再孤單。</div> 領養文章後段  -->
+        </div>
+        <div class="second_right">
+            <div class="b1 line2">
+                <button id="prev-arrow">&#9664;</button>
+            </div>
+
+            <div class="story line2">
+                <div class="adopterTitle">
+                    <h1 style="font-size: 3.2vh;">牠，我的新家人</h1>
+                </div>
+                <div class="line2R adopterFeedback" id="article"> <!-- 背景可用主人與寵物的照片，設透明度 --> 
+                    我領養了一隻可愛的布丁鼠，牠讓我學會了責任感和珍惜生命。無論開心或難過，牠總在我身邊，給我溫暖和愛，讓我變得更有耐心和愛心。
+                </div>
+                <div class="adopter">
+                    <div class="line2R adopterPicture">
+                        <img src="img/male_1.png" alt="領養者照片" id="image" width="100%"> <!-- 領養者照片 -->
+                    </div>
+                    <div class="adopterInfo">
+                        <div class="line2R name" id="name">孫小帥</div> <!-- 領養者姓名 + 國籍 -->
+                        <div class="contryC" id="contryC">臺灣 花蓮縣</div>
+                        <div class="contryE" id="contryE">Taiwan, Hualien</div>
+                    </div>
+                </div>
+            </div>
+            <div class="b2 line2">
+                <button id="next-arrow">&#9654;</button>  
+            </div>
+            <div class="indicator">
+                <span class="circle filled"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+                <span class="circle"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="third">
+        <div class="chanceTitle">
+            <div class="intrTitle">
+                <h1 style="font-size: 4vh;">請給他們一個機會</h1>
+            </div>
+        </div>
+        <div class="pet">
+            <table align="center">
+                <tr>
+                    <th><img src="img/狗.png" alt="狗" id="petPic"></th>
+                    <th><img src="img/貓.png" alt="貓" id="petPic"></th>
+                    <th><img src="img/兔.png" alt="兔" id="petPic"></th>
+                    <th><img src="img/鼠.png" alt="鼠" id="petPic"></th>
+                    <th><img src="img/鳥.png" alt="鳥" id="petPic"></th>
+                    <th><img src="img/爬蟲.png" alt="爬蟲" id="petPic"></th>
+                </tr>
+                <tr>
+                    <td>狗</td>
+                    <td>貓</td>
+                    <td>兔</td>
+                    <td>鼠</td>
+                    <td>鳥</td>
+                    <td>爬蟲</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <script src="js/home.js"></script>
+
+</body>
+
+</html>
+
+
+
+<!-- 領養文章(150)
+1. 愛的選擇
+每一隻流浪動物都值得被愛與關懷。當你選擇領養，你不僅給予牠一個家，
+更給予牠重新開始的機會。這些曾經孤單的生命，因為你的愛，開始了全新的旅程。
+領養不僅是救助，更是生命間深深的承諾。牠們將會是你最忠實的朋友，一生的陪伴，
+讓你的人生充滿無限的溫暖與喜悅。
+
+2. 牠們的故事，因你而改變
+領養是一個改變命運的決定，讓流浪動物的故事有了新的開始。當牠們孤單流浪時，
+沒有人知道牠們的痛苦與無助。但當你伸出援手，牠們的生命重新綻放光芒。
+你知不知道？每一次的領養都是一段愛與陪伴的奇蹟。牠們曾經流浪過，但因為你的選擇，
+牠們的世界不再孤單。
+
+3. 小小的選擇，大大的愛
+每一隻流浪動物都有著自己的故事，等待著你的關愛與陪伴。領養不僅改變了牠們的命運
+也為你的生活帶來無比的快樂與溫暖。牠們或許曾經受過傷害，但當牠們走進你的生活，
+愛與信任重新建立。你選擇領養，牠們選擇了信任你，一段愛的故事由此開始。
+
+4. 給牠們一個新開始
+領養是一個簡單卻充滿力量的決定。當你選擇領養流浪動物，牠們不再是街頭的孤獨身影，
+而是成為了你的朋友、家人與夥伴。牠們曾經流浪過，經歷過種種困難與不安，
+但你的愛讓牠們擁有了新的希望與未來。每一個領養的故事，都是一個溫暖的奇蹟，改變了無數生命。
+
+5. 愛從領養開始
+領養不僅是改變動物的命運，更是改變自己的人生。每一隻流浪動物都有著等待被愛的心。
+當你選擇領養，你給予牠們一個家，也給自己帶來無盡的快樂與陪伴。牠們曾經孤單無助，
+但現在有了牠們屬於的愛與關懷。讓我們一起用愛改變生命，為流浪動物帶來一個全新的未來。
+-->
+
+
+<!--    領養者回饋文章(80~90)
+領養寵物讓我感受到無限的愛與陪伴。牠從流浪動物變成我信任的伴侶，
+每天的陪伴讓我更加快樂。牠不僅帶給我溫暖，也讓我學會責任與耐心。
+這份回報讓我的生活更加充實，牠成為了我的摯友。
+1. 重新開始，與牠同行
+領養了小黑後，我的世界變得更加明亮。牠從一隻流浪動物，
+逐漸融入我們的生活，帶來無數意想不到的快樂。
+這段陪伴讓我更懂得珍惜每一個當下，牠的存在讓我感受到生命中的溫暖與希望。
+
+2. 牠的愛改變了我
+領養了小巧，我學會了更多關於愛與耐心的課題。
+牠過去的困難讓我更加珍惜我們現在的時光。與牠的相處不僅是陪伴，還是心靈的成長。
+這份愛讓我成為了一個更好的自己，感謝牠的到來。
+
+3. 我們的心靈相依
+領養了阿福後，我的生活質感大幅提升。
+牠的陪伴不僅讓我每天都充滿期待，也讓我更有責任心。
+雖然牠曾是流浪動物，但牠現在是我的家人。這段關係讓我明白了真正的愛是無條件的陪伴與支持。
+ -->
+
+<!-- 
+字體 7-2文字屬性 P7-8
+若在文字前加小圖示 6-6虛擬元素選擇器 P6-27
+
+-->

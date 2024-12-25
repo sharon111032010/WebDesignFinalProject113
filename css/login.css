@@ -1,0 +1,236 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif, verdana;
+}
+.bodyDiv {
+    background-color: #00ffff;
+    display: flex;
+}
+
+.left {
+    background-image: linear-gradient(#3295db 30%, #82c0f1);
+    height: 100vh;
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2.5%;
+    color: #fff;
+}
+
+.leftUp {
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftUp div {
+    display: flex;
+}
+
+.leftUp div div {
+    height: 16%;
+    display: flex;
+    align-items: flex-end;
+    cursor: pointer;
+    h1{
+        font-weight: 600;
+        font-size:xx-large;
+    }
+}
+
+.leftUp div div h2 {
+    height: 75%;
+    font-weight: 100;
+}
+
+.leftUp i {
+    cursor: pointer;
+    height: 8%;
+    transform: scale(1.5); 
+}
+
+.leftDown {
+    height: 60%;
+}
+
+.leftDown h3 {
+    margin-bottom: 5%;
+    font-weight: 500;
+}
+
+.leftDown h4 {
+    font-weight: 200;
+    line-height: 1.5em;
+}
+
+.right {
+    background-color: rgb(255, 255, 255);
+    width: 74%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2% 5% 5% 5%;
+    color: #4b4b4b;
+}
+
+.Dright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 90%;
+    width: 85%;
+}
+
+.textLogin h1 {
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.textLogin div {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+}
+
+.textLogin div button {
+    color: #73c0fc;
+    font-weight: 300;
+    height: 60%;
+    text-decoration: underline;
+    font-size: small;
+    border-radius: 0px;
+}
+
+.publicAccountContainer {
+    height: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.textPart p {
+    color: #afafaf;
+}
+
+.publicAccount {
+    display: flex;
+    height: 60%;
+    justify-content: space-between;
+}
+
+.publicAccount div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 22%;
+    background-color: #3295db;
+    height: 80%;
+    border-radius: 3px;
+    color: #fff;
+
+}
+
+.publicAccount div img {
+    transform: scale(1); 
+    background-color: #fff;
+    border-radius: 3px;
+    width: 22%;
+    height: 80%;
+    color: #151515;
+    padding: 5%;
+    margin: 2%;
+}
+
+.publicAccount div p {
+    margin: 1%;
+}
+
+.textEmail {
+    display: flex;
+}
+
+.inputAccount {
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.inputAccount div {
+    height: 15%;
+    padding: 1% 0%;
+}
+
+.inputAccount input{
+    width: 100%;
+    height: 22%;
+    border-radius: 10px;
+    border: 1.5px solid #82c0f1;
+    background-color: #f4f6f8;
+    outline: none;
+}
+.inputAccount input:focus {
+    height: 25%;
+    transition: 0.5s;
+    border-radius: 15px;
+    box-shadow: 0 0 0px #03e9f4,
+                0 0 1px #03e9f4,
+                0 0 5px #60f7ff, 
+                0 0 20px #c1f8fb;
+}
+
+.ngClassB {
+    width: 100%;
+    height: 22%;
+    border-radius: 10px;
+    border: 1.5px solid #82c0f1;
+    background-color: #f4f6f8;
+    outline: none;
+    font-size: large;
+    font-weight: 400;
+}
+
+.ngClassA {
+    border-color: #eb3d3d;
+    background-color: #f7e0e0;
+    transition: 0.5s;
+}
+
+.linkOf {
+    display: flex;
+    justify-content: end;
+    height: 10%;
+    font-size: small;
+
+    .btn {
+        color: #73c0fc;
+        font-weight: 300;
+        height: 100%;
+        font-size: 14px;
+        border-radius: 0px;
+        text-decoration: underline;
+    }
+}
+
+.nextBtn {
+    display: flex;
+    justify-content: flex-end;
+    height: 10%;
+}
+
+.nextBtn button {
+    background-color: #ffcf46;
+    border-radius: 5px;
+    color: #6d5825;
+    font-size: 18px;
+    height: 70%;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

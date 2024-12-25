@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0px;
+}
+header{
+    background-color:darkblue;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+header h1{
+    font-size: 50px;
+    padding: 7px;
+    color: #fff;
+    text-align: center;
+}
+header h3{
+    font-weight: 200;/*不能有px*/
+    font-size: 15px;
+    padding: 7px;
+    color: #fff;
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+    color: rgb(206, 206, 206);
+    width: 1000px;
+    height: 300px;
+    
+}
+.content div input{
+    border-radius: 15px;
+    outline: none;
+    border: 0px;
+    background-color:#eef8fc;
+    padding: 10px;
+    font-size: 15px;
+}
+.content p{
+    font-size: 12px; 
+    margin-left: 10px;
+}
+.contentLaft{
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contentCenter{
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.contentRight{
+    width: 270px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+}
+.QuentionCon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.QuentionCon div a{
+    color: #7d7d7d;
+    border-radius: 20px;
+    background-color: #e8e2e2;
+    padding: 10px 20px 10px 20px;
+}
+.QuentionCon p{
+    margin-bottom: 40px; 
+    color: #7d7d7d;
+}
+.getStartBtn{
+    display: flex;
+    align-items: center;
+}
+.getStartBtn a{
+    color: #fff;
+    background-color: #67bca5;
+    border-radius: 20px;
+    padding: 15px 100px;
+    margin-top: 40px;
+}
