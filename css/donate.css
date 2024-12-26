@@ -309,3 +309,7 @@ iframe{
     height: 20vh;
     border: none;
 }
+
+body{
+    background-color: #000;
+}
