@@ -1,30 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="css/nav.css">
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    * {
+        margin: 0px;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+        font-family: sans-serif;
+        /* font-weight: 500; */
+        /* font-family: sans-serif ; */
+    } 
+    /* body {
+        background-color: #faf6e3;
+    } */
+    .first {
+        display: flex;
+        height: 90vh;   /* 第一行占螢幕大小 */
+        justify-content: space-between;
+        /* margin-top: 0.25%; */
+        margin-bottom: 2.5%;
+        background-color: #faf6e3;;
+        /* font-size: 700; */
+    }
+    .first_left{
+        /* border: 2px solid darkcyan; */
+        display: flex;
+        /* flex-direction: column; */
+        height: 100%;
+        width: 55%;
+        justify-content: flex-start;
+        /* align-items: center; */
+        /* background-color: rgb(40, 30, 147); */
+        /* align-self: center; */
+        text-align: center;
+    }
+    .logo {
+        /* width: 9%; */
+        align-content: center;
+        justify-content: center;
+        margin: 0% 5%;
+    }
+    .first_left_a {
+        display: flex;
+        width: 100%;
+        /* border: 2px solid firebrick; */
+        justify-content: space-around;
+    }
+    .first_right{
+        /* border: 2px solid crimson; */
+        display: flex;
+        justify-content: flex-end;
+        width: 25%;
+        height: 100%;
+        text-align: center;
+        margin-right: 3%;
+    }
+    .pageintr, .adopted, .fundraising {
+        /* border: 2px dotted hotpink; */
+        width: 25%;
+    }
+    .login, .signup{
+        width: 40%;
+    }
+    .logo:hover {
+        transform: scale(1.25);  /* 圖形放大 */
+        transition: all 0.5s;
+    }
+    a {
+        color: #2a3663;
+        font-weight: 600;
+    }
+    .line { /* 字體顏色 文字大小 */
+        align-content: center;  /* 上下置中 */
+        text-align: center;     /* 左右置中，但不一定位於正中間 */
+    }
+    .line:hover {   /* 鼠標放在上面的效果 */
+        /* background-color: #c4d669; */
+        background-color: #b59f78;
+        color:  #2a3663;
+        transition: all 0.5s;
+        transform: scale(1.1);  /* 圖形放大 */
+        font-size: larger;  /*  文字放大 */
+        font-weight: 1000;
+    }
+    </style>
 </head>
-<div class="first">
-    <div class="first_left">
-        <div class="logo"> <!-- logo -->
-            <a href="index.html" ><img src="img\logo.png" alt="logo" height="100%"></a>
+<body>
+    <div class="first">
+        <div class="first_left">
+            <div class="logo"> <!-- logo -->
+                <a href="img/logo.png" target="_blank"><img src="img\logo.png" alt="logo" height="100%"></a>
+            </div>
+            <div class="first_left_a">
+                <div class="line pageintr">
+                    <a href="about.html" target="_blank">關於中途之家</a>
+                </div> <!-- 與寵物相關選項(介紹、已領養、募款) -->
+                <div class="line adopted">
+                    <a href="newBeginning.html" target="_blank">幸福新開始</a>
+                </div> <!-- 簡介 + 相關人員 -->
+                <div class="line fundraising">
+                    <a href="donate.html" target="_blank">讓愛延續</a>
+                </div> <!-- 募款 -->
+            </div>
         </div>
-        <div class="first_left_a">
-            <div class="line pageintr">
-                <a href="about.html" >關於中途之家</a>
-            </div> <!-- 與寵物相關選項(介紹、已領養、募款) -->
-            <div class="line adopted">
-                <a href="new_beginning.html">幸福新開始</a>
-            </div> <!-- 簡介 + 相關人員 -->
-            <div class="line fundraising">
-                <a href="donate.html" >讓愛延續</a>
-            </div> <!-- 募款 -->
+        <div class="first_right">
+            <!-- <div class="line language">
+                <label for="language">語言選擇</label>
+                <select id="options_language">
+                    <option value="繁中" selected>繁體中文</option>
+                    <option value="簡中">簡體中文</option>
+                    <option value="英文">English</option>
+                    <option value="日文">日本語</option>
+                    <option value="韓文">한국어</option>
+                </select>
+            </div> -->
+            <div class="line login">
+                <a href="login.html" target="_blank">登入</a>
+            </div>
+            <div class="line signup">
+                <a href="signUp.html" target="_blank">註冊</a>
+            </div>
         </div>
     </div>
-    <div class="first_right">
-        <div class="line login">
-            <a href="login.html" >登入</a>
-        </div>
-        <div class="line signup">
-            <a href="signUp.html" >註冊</a>
-        </div>
-    </div>
-</div>
+</body>
+</html>
