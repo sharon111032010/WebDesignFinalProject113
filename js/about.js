@@ -1,9 +1,9 @@
 // 定義工作人員資料
 const staffData = [
-    { name: "王小明", position: "獸醫師或醫療技術員", image: "img/staff1.png" },
-    { name: "李佳玲", position: "募資與宣傳專員", image: "img/staff2.png" },
-    { name: "陳大華", position: "收養與媒合專員", image: "img/staff3.png" },
-    { name: "張美英", position: "動物照護專員", image: "img/staff4.png" }
+    { name: "王小明", position: "獸醫師或醫療技術員", image: "img/about/staff1.png" },
+    { name: "李佳玲", position: "募資與宣傳專員", image: "img/about/staff2.png" },
+    { name: "陳大華", position: "收養與媒合專員", image: "img/about/staff3.png" },
+    { name: "張美英", position: "動物照護專員", image: "img/about/staff4.png" }
 ];
 
 // 初始化索引

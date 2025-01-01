@@ -159,11 +159,45 @@ h1 {
     height: fit-content;
     align-self: center;    
 }
+.arrow {
+    /* background-color: #ddd; */
+    font-size: 24px;
+    cursor: pointer; /* 設定當滑鼠懸停在按鈕上時，指標變為手形圖示，表示可點擊 */
+    /* padding: 10px 15px;
+    border-radius: 50%; */
+}
+.arrow:hover {
+    /* background-color: #bbb; */
+}
+
 .b1 {
+    border: none;
     margin-right: 4%;
 }
 .b2 {
+    border: none;
+
     margin-left: 4%;
+}
+/* __________________________________________________________________________ */
+/* 指示器樣式 */
+.indicator {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    /* border: 2px double mediumaquamarine; */
+    margin-left: 2%;
+    background-color: #7f8c8d;
+}
+
+.circle.filled {
+    background-color: lightcoral;
 }
 .adopterFeedback {
     /* border: 4px double salmon; */
