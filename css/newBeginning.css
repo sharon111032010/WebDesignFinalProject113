@@ -9,27 +9,25 @@
 } 
 /* 主背景：層次漸變 */
 body {
-    /* background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117)); */
-    background: linear-gradient(to bottom, #727d73, #B6CBBD);
-    color: #2c3e50; /* 確保文字對比清晰 */
+       background: linear-gradient(to bottom,  #B6CBBD,#778da9);
+    color: #2c3e50;
 }
 /* 第二部分樣式 */
 .second {
     padding: 20px;
     text-align: center;
-    background-color: #D9DFC6;    /*增加層次感的背景色 */
-    color: #300c0c; 
+    background-color: #415a77;
     margin: 20px auto;
-    border: 1px solid #355f3b; /* 深綠色邊框 */
+    border: 1px solid  #355f3b; /* 深綠色邊框 */
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     width: 80%;
 }
 
 .second p {
     font-size: 24px;
     font-weight: bold;
-    color: #34495e;
+    color: #fff;
 }
 
 /* 第三部分主要內容 */
@@ -40,13 +38,11 @@ body {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background: linear-gradient(to top,  #4C585B, #657b84); /* 深淺漸變 */
-    /* border: 1px solid #ddd; */
+    background: linear-gradient(to bottom,  #33699c,#1b263b);/* 深淺漸變 */
     border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    gap: 20px; /* 增加左右間距 */
-    color: #ffffff; /* 保持文字清晰 */
-
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    gap: 20px;
+    color: #ffffff; /* 白色文字確保清晰 */
 }
 
 /* 左側主要內容 */
@@ -77,9 +73,8 @@ body {
     flex-basis: 80%; /* 固定右側寬度 */
     max-width: 500px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background: linear-gradient(to bottom,  #33699c,#183c5e); /* 深淺漸變 */
+    border-left: 2px solid #163c5f;
     text-align: center;
     background-color: #fafafa;
     border-left: 1px solid #ddd;
@@ -87,7 +82,7 @@ body {
 
 .title{
     font-size: 22px;
-    color: 	#0080FF;
+    color:  #e8f3fe;
     margin-bottom: 10px; 
 }
 
@@ -150,7 +145,7 @@ body {
 /* 動物詳細資料樣式 */
 .name {
     font-size: 18px;
-    color: #7f8c8d;
+    color: #bad2d4;
     font-weight: bold;
 }
 
