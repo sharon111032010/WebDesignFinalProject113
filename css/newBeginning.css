@@ -1,92 +1,67 @@
+/* 全局樣式 */
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    /* font-weight: 500; */
-    /* font-family: sans-serif ; */
-} 
-/* body {
-    background-color: #faf6e3;
-} */
+}
+
+/* 主背景色：綠色漸變 */
+body {
+    background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117));
+    color: #2c3e50;
+}
+
+/* 第一部分樣式 */
 .first {
     display: flex;
-    height: 11vh;   /* 第一行占螢幕大小 */
+    height: 11vh;
     justify-content: space-between;
-    margin-top: 0.25%;
-    margin-bottom: 2.5%;
-    background-color: #faf6e3;;
-    /* font-size: 700; */
+    align-items: center;
+    margin: 0.5% 0;
+    background-color: rgb(117, 153, 117);
+    padding: 0 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
-.first_left{
-    /* border: 2px solid darkcyan; */
+
+/* 左側內容 */
+.first_left {
     display: flex;
-    /* flex-direction: column; */
-    height: 100%;
-    width: 55%;
+    align-items: center;
     justify-content: flex-start;
-    /* align-items: center; */
-    /* background-color: rgb(40, 30, 147); */
-    /* align-self: center; */
-    text-align: center;
+    width: 60%;
 }
+
+/* 標誌樣式 */
 .logo {
-    /* width: 9%; */
-    align-content: center;
-    justify-content: center;
-    margin: 0% 5%;
+    margin: 0 10px;
+    transform: scale(1);
+    transition: transform 0.3s;
 }
-.first_left_a {
-    display: flex;
-    width: 100%;
-    /* border: 2px solid firebrick; */
-    justify-content: space-around;
-}
-.first_right{
-    /* border: 2px solid crimson; */
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    height: 100%;
-    text-align: center;
-    margin-right: 3%;
-}
-.pageintr, .adopted, .fundraising {
-    /* border: 2px dotted hotpink; */
-    width: 25%;
-}
-.login, .signup{
-    width: 40%;
-}
+
 .logo:hover {
-    transform: scale(1.25);  /* 圖形放大 */
-    transition: all 0.5s;
+    transform: scale(1.2);
 }
+
+/* 連結樣式 */
 a {
-    color: #2a3663;
-    font-weight: 600;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
 }
-.line { /* 字體顏色 文字大小 */
-    align-content: center;  /* 上下置中 */
-    text-align: center;     /* 左右置中，但不一定位於正中間 */
+
+a:hover {
+    color: #cadaee;
 }
-.line:hover {   /* 鼠標放在上面的效果 */
-    /* background-color: #c4d669; */
-    background-color: #b59f78;
-    color:  #2a3663;
-    transition: all 0.5s;
-    transform: scale(1.1);  /* 圖形放大 */
-    font-size: larger;  /*  文字放大 */
-    font-weight: 1000;
-}
+
 /* 第二部分樣式 */
 .second {
     padding: 20px;
     text-align: center;
-    background-color: #fefefe;
+    background-color: rgb(117, 153, 117); /* 綠色背景 */
     margin: 20px auto;
-    border: 1px solid #ddd;
+    border: 1px solid rgb(85, 127, 102); /* 深綠色邊框 */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 80%;
@@ -95,10 +70,10 @@ a {
 .second p {
     font-size: 24px;
     font-weight: bold;
-    color: #34495e;
+    color: #ffffff;
 }
 
-/* 第三部分主要內容 */
+/* 第三部分樣式 */
 .main {
     display: flex;
     justify-content: space-between;
@@ -106,53 +81,52 @@ a {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background: linear-gradient(to bottom, rgb(85, 127, 102), rgb(53, 95, 59)); /* 綠色漸變背景 */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    gap: 20px; /* 增加左右間距 */
+    gap: 20px;
+    color: #ffffff; /* 白色文字確保清晰 */
 }
 
 /* 左側主要內容 */
 .main_left {
-    flex-basis: 60%; /* 固定左側寬度 */
+    flex-basis: 60%;
     max-width: 600px;
     padding: 20px;
 }
 
 .main_left h2 {
     font-size: 22px;
-    color: #2c3e50;
+    color: #ffffff;
     margin-bottom: 10px;
 }
 
 .main_left p {
     font-size: 16px;
-    color: #7f8c8d;
+    color: #cadaee;
     line-height: 1.6;
     margin-bottom: 10px;
 }
 
 /* 右側內容樣式 */
 .main_right {
-    flex-basis: 80%; /* 固定右側寬度 */
-    max-width: 500px;
+    flex-basis: 40%;
+    max-width: 400px;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    background-color: rgb(117, 153, 117); /* 繼承綠色背景 */
+    border-left: 1px solid rgb(85, 127, 102);
     text-align: center;
-    background-color: #fafafa;
-    border-left: 1px solid #ddd;
+    color: #ffffff;
 }
 
-.title{
+/* 標題樣式 */
+.title {
     font-size: 22px;
-    color: 	#0080FF;
-    margin-bottom: 10px; 
+    color: #ffffff;
+    margin-bottom: 10px;
 }
 
-/* 圖片切換容器樣式 */
+/* 圖片切換容器 */
 .image-container {
     display: flex;
     align-items: center;
@@ -174,22 +148,17 @@ a {
     background-color: #bbb;
 }
 
-.content {
-    text-align: center;
-    padding: 0 20px;
-}
-
-/* 動物圖片樣式 */
+/* 動物圖片 */
 .animal-img {
     max-width: 100%;
-    max-height: 200px; /* 限制圖片高度 */
+    max-height: 200px;
     height: auto;
-    object-fit: contain; /* 確保圖片完整顯示，並適應容器 */
+    object-fit: contain;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
-/* 指示器樣式 */
+/* 指示器 */
 .indicator {
     display: flex;
     justify-content: center;
@@ -205,19 +174,19 @@ a {
 }
 
 .circle.filled {
-    background-color: #7f8c8d;
+    background-color: #cadaee;
 }
 
-/* 動物詳細資料樣式 */
+/* 詳細資料樣式 */
 .name {
     font-size: 18px;
-    color: #7f8c8d;
+    color: #cadaee;
     font-weight: bold;
 }
 
 .subtitle, .say {
     font-size: 16px;
-    color: #2c3e50;
+    color: #ffffff;
     margin-top: 10px;
     line-height: 1.5;
 }

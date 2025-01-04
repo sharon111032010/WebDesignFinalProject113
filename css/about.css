@@ -1,122 +1,86 @@
+/* 全局樣式 */
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    /* font-weight: 500; */
-    /* font-family: sans-serif ; */
-} 
-/* body {
-    background-color: #faf6e3;
-} */
+}
+
+/* 主背景：層次漸變 */
+body {
+    background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117));
+    color: #2c3e50; /* 確保文字對比清晰 */
+}
+
+/* 第一部分樣式 */
 .first {
     display: flex;
-    height: 11vh;   /* 第一行占螢幕大小 */
+    height: 11vh; /* 第一部分的高度 */
     justify-content: space-between;
-    margin-top: 0.25%;
-    margin-bottom: 2.5%;
-    background-color: #faf6e3;;
-    /* font-size: 700; */
+    align-items: center; /* 垂直置中 */
+    margin: 1% 0;
+    background-color: rgb(117, 153, 117); /* 與主背景呼應 */
+    padding: 0 20px; /* 左右內距 */
 }
-.first_left{
-    /* border: 2px solid darkcyan; */
+
+/* 左側內容 */
+.first_left {
     display: flex;
-    /* flex-direction: column; */
-    height: 100%;
     width: 55%;
     justify-content: flex-start;
-    /* align-items: center; */
-    /* background-color: rgb(40, 30, 147); */
-    /* align-self: center; */
+    align-items: center;
     text-align: center;
 }
+
+/* 標誌樣式 */
 .logo {
-    /* width: 9%; */
-    align-content: center;
-    justify-content: center;
-    margin: 0% 5%;
+    margin: 0 10px;
+    transform: scale(1);
+    transition: transform 0.3s;
 }
-.first_left_a {
-    display: flex;
-    width: 100%;
-    /* border: 2px solid firebrick; */
-    justify-content: space-around;
-}
-.first_right{
-    /* border: 2px solid crimson; */
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    height: 100%;
-    text-align: center;
-    margin-right: 3%;
-}
-.pageintr, .adopted, .fundraising {
-    /* border: 2px dotted hotpink; */
-    width: 25%;
-}
-.login, .signup{
-    width: 40%;
-}
+
 .logo:hover {
-    transform: scale(1.25);  /* 圖形放大 */
-    transition: all 0.5s;
+    transform: scale(1.2); /* 放大效果 */
 }
-a {
-    color: #2a3663;
-    font-weight: 600;
-}
-.line { /* 字體顏色 文字大小 */
-    align-content: center;  /* 上下置中 */
-    text-align: center;     /* 左右置中，但不一定位於正中間 */
-}
-.line:hover {   /* 鼠標放在上面的效果 */
-    /* background-color: #c4d669; */
-    background-color: #b59f78;
-    color:  #2a3663;
-    transition: all 0.5s;
-    transform: scale(1.1);  /* 圖形放大 */
-    font-size: larger;  /*  文字放大 */
-    font-weight: 1000;
-}
-/* 第二部分的樣式 */
+
+/* 第二部分樣式 */
 .second {
-    padding: 20px; /* 內距設定 */
-    text-align: center; /* 內容文字置中 */
-    background-color: #fefefe; /* 背景顏色為白色 */
-    margin: 20px auto; /* 上下邊距 20px，左右置中 */
-    border: 1px solid #ddd; /* 灰色的邊框 */
-    border-radius: 5px; /* 邊框圓角設定 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 陰影效果 */
-    width: 80%; /* 區塊寬度為父容器的 80% */
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(117, 153, 117); /* 增加層次感的背景色 */
+    color: #ffffff; /* 白色文字 */
+    margin: 20px auto;
+    border: 1px solid #355f3b; /* 深綠色邊框 */
+    border-radius: 10px; /* 柔化邊緣 */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 增加陰影 */
+    width: 80%;
 }
 
 /* 第二部分文字樣式 */
 .second p {
     font-size: 24px; /* 字體大小 */
     font-weight: bold; /* 字體加粗 */
-    color: #34495e; /* 字體顏色為深藍灰色 */
 }
 
-/* 第三部分主要內容的樣式 */
+/* 第三部分樣式 */
 .main {
-    display: flex; /* 使用 flex 排版 */
-    justify-content: space-between; /* 左右分散排列 */
-    align-items: flex-start; /* 元素頂端對齊 */
-    padding: 20px; /* 內距設定 */
-    margin: 20px auto; /* 上下邊距 20px，左右置中 */
-    width: 80%; /* 寬度為父容器的 80% */
-    background-color: #fff; /* 背景顏色為白色 */
-    border: 1px solid #ddd; /* 灰色邊框 */
-    border-radius: 5px; /* 邊框圓角設定 */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* 陰影效果 */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    background: linear-gradient(to bottom, rgb(85, 127, 102), rgb(53, 95, 59)); /* 深淺漸變 */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 增加陰影 */
+    color: #ffffff; /* 保持文字清晰 */
 }
 
-/* 左側主要內容的樣式 */
+/* 左側內容樣式 */
 .main_left {
-    flex: 1; /* 占用剩餘空間 */
-    padding: 20px; /* 內距設定 */
+    flex: 1;
+    padding: 20px;
 }
 
 /* 左側主標題的樣式 */
@@ -126,48 +90,56 @@ a {
     margin-bottom: 10px; /* 與下方內容的距離 */
 }
 
-/* 左側段落文字的樣式 */
-.main_left p {
-    font-size: 16px; /* 字體大小 */
-    color: #7f8c8d; /* 字體顏色 */
-    line-height: 1.6; /* 行距設定 */
-    margin-bottom: 10px; /* 與下方內容的距離 */
+.main_left h3 {
+    font-size: 20px;
+    color: #cadaee;
+    margin-top: 20px;
 }
 
-/* 右側主要內容的樣式 */
+.main_left p {
+    font-size: 16px;
+    line-height: 1.8; /* 調整行距 */
+    margin-bottom: 10px;
+}
+
+/* 列表樣式 */
+.main_left li {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+/* 右側內容樣式 */
 .main_right {
-    flex: 1; /* 占用剩餘空間 */
-    padding: 20px; /* 內距設定 */
-    display: flex; /* 使用 flex 排版 */
-    flex-direction: column; /* 垂直排列子元素 */
-    align-items: center; /* 子元素水平置中 */
-    margin-top: 180px; /* 與上方內容的距離 */
-    text-align: center; /* 文字置中 */
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* 右側標題的樣式 */
 .main_right h3 {
     font-size: 20px; /* 字體大小 */
-    color: #2c3e50; /* 字體顏色 */
     margin-bottom: 20px; /* 與下方內容的距離 */
 }
 
-/* 員工容器的樣式 */
+/* 工作人員樣式 */
 .staff-container {
-    position: relative; /* 相對定位 */
+    position: relative;
+    width: 80%;
+    text-align: center;
 }
 
 /* 員工圖片的樣式 */
 .responsive-img {
     max-width: 100%; 
     height: auto; /* 高度自動調整 */
-    border-radius: 5px; /* 邊角圓滑處理 */
     margin-bottom: 10px; /* 與下方內容的距離 */
 }
 
 /* 員工名稱的樣式 */
 .staff-name {
     font-size: 18px; /* 字體大小 */
-    color: #7f8c8d; /* 字體顏色 */
     font-weight: bold; /* 字體加粗 */
 }
