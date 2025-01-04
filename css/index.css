@@ -81,16 +81,27 @@ a {
     font-weight: 1000;
 }
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+.content {
+    /* background-color: #010A43; */
+    /* background-color: #6c757d;   ************ */
+    /* background-color: #3b3355;
+    background-color: #727D73;
+    background-color: #B7E0FF;    
+    background-color: #124559;
+    /* background-color: #6c584c; */
+    background-color: #727d73;
+    color: #F8FAFC;
+}
 .second {
     display: flex;
     /* background-color: #D8DBBD; */
-    background-color: #faf6e3;
+    /* background-color: #faf6e3; */
     /* height:45vh; */
     flex-direction: row; /* row 左右，col 上下 */
     /* border: 4px solid orange; */
     justify-content: space-between;
     /* text-align: justify     */
-    margin-bottom: 1.5%;
+    margin-bottom: 2.5%;
 }
 .second_left {
     display: flex;
@@ -122,9 +133,10 @@ p {
 }
 .adoptionFrame1, .adoptionFrame2 {
     width: 35%;
-    border: 3px double #D8DBBD;
+    border: 5px double #4B5945;
     border-radius: 12px;
-    background-color: #2a3663;
+    background-color: #D9EAFD;
+    color: #543A14;
 }
 .second_right {
     display: flex;
@@ -197,7 +209,7 @@ h1 {
 }
 
 .circle.filled {
-    background-color: lightcoral;
+    background-color: #E5E1DA;
 }
 .adopterFeedback {
     /* border: 4px double salmon; */
@@ -231,7 +243,7 @@ h1 {
     flex-direction: column;
     /* border: 2px double gold; */
     /* height: 40vh; */
-    background-color: #faf6e3;
+    /* background-color: #faf6e3; */
 }
 .chanceTitle {
     display: flex;

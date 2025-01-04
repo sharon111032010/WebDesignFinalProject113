@@ -35,7 +35,7 @@ header h3{
 .content{
     display: flex;
     justify-content:space-around;
-    color: rgb(206, 206, 206);
+    color: rgb(126, 119, 119);
     width: 1000px;
     height: 300px;
     
@@ -105,7 +105,7 @@ footer{
     align-items: center;
 }
 .getStartBtn a{
-    color: #fff;
+    color: #0d3b73;
     background-color: #ffcf46;
     border-radius: 20px;
     padding: 15px 100px;
