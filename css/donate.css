@@ -8,6 +8,11 @@
 } 
 /* 頁面主體 */
 
+body {
+    /* background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117)); */
+    background: linear-gradient(to bottom,  #B6CBBD,#778da9);
+    color: #2c3e50; /* 確保文字對比清晰 */
+}
 /* 頁面內容 */
 h1 {
     font-size: 2.5em;
@@ -54,6 +59,7 @@ section {
 
 .contact-form label {
     font-size: 1.1em;
+    font-weight: 550;
     display: block;
     margin-top: 10px;
     flex-direction: column;
@@ -71,7 +77,7 @@ section {
     width: 100%;
     height: 22%;
     border-radius: 10px;
-    border: 1.5px solid #82c0f1;
+    border: 1.5px solid #3171a2;
     background-color: #f4f6f8;
     outline: none;
 }
@@ -93,222 +99,6 @@ section {
 }
 
 
-
-
-
-
-
-/* body {
-    background-color: #faf6e3;
-} */
-.first {
-    display: flex;
-    height: 11vh;   /* 第一行占螢幕大小 */
-    justify-content: space-between;
-    margin-top: 0.25%;
-    margin-bottom: 2.5%;
-    background-color: #faf6e3;;
-    /* font-size: 700; */
-}
-.first_left{
-    /* border: 2px solid darkcyan; */
-    display: flex;
-    /* flex-direction: column; */
-    height: 100%;
-    width: 55%;
-    justify-content: flex-start;
-    /* align-items: center; */
-    /* background-color: rgb(40, 30, 147); */
-    /* align-self: center; */
-    text-align: center;
-}
-.logo {
-    /* width: 9%; */
-    align-content: center;
-    justify-content: center;
-    margin: 0% 5%;
-}
-.first_left_a {
-    display: flex;
-    width: 100%;
-    /* border: 2px solid firebrick; */
-    justify-content: space-around;
-}
-.first_right{
-    /* border: 2px solid crimson; */
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    height: 100%;
-    text-align: center;
-    margin-right: 3%;
-}
-.pageintr, .adopted, .fundraising {
-    /* border: 2px dotted hotpink; */
-    width: 25%;
-}
-.login, .signup{
-    width: 40%;
-}
-.logo:hover {
-    transform: scale(1.25);  /* 圖形放大 */
-    transition: all 0.5s;
-}
-a {
-    color: #2a3663;
-    font-weight: 600;
-}
-.line { /* 字體顏色 文字大小 */
-    align-content: center;  /* 上下置中 */
-    text-align: center;     /* 左右置中，但不一定位於正中間 */
-}
-.line:hover {   /* 鼠標放在上面的效果 */
-    /* background-color: #c4d669; */
-    background-color: #b59f78;
-    color:  #2a3663;
-    transition: all 0.5s;
-    transform: scale(1.1);  /* 圖形放大 */
-    font-size: larger;  /*  文字放大 */
-    font-weight: 1000;
-}
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-.second {
-    display: flex;
-    /* background-color: #D8DBBD; */
-    background-color: #faf6e3;
-    /* height:45vh; */
-    flex-direction: row; /* row 左右，col 上下 */
-    /* border: 4px solid orange; */
-    justify-content: space-between;
-    /* text-align: justify     */
-    margin-bottom: 1.5%;
-}
-.second_left {
-    display: flex;
-    flex-direction: column;
-    width: 55%;
-    /* border: 3px solid rgb(230, 15, 51); */
-    margin-left: 1.5%;
-    justify-content: center;
-}
-.line2 {
-    /* border: 2px dotted indigo; */
-}
-.articleTitle {
-    margin-top: 1%;
-}
-.articleContent {
-    /* margin-top: 5px; */
-}
-p {
-    /* border: 2px solid greenyellow; */
-    margin-bottom: 3%;
-}
-.adoptionFrame {
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
-    color: aliceblue;
-    margin-bottom: 1%;
-}
-.adoptionFrame1, .adoptionFrame2 {
-    width: 35%;
-    border: 3px double #D8DBBD;
-    border-radius: 12px;
-    background-color: #2a3663;
-}
-.second_right {
-    display: flex;
-    flex-direction: row;
-    /* border: 3px solid hotpink; */
-    justify-content: space-between;
-    width: 35%;
-    margin-right: 1.5%;
-}
-.story {
-    display: flex;
-    flex-direction: column;
-    /* width: 30%; */
-    /* border: 2px solid dodgerblue; */
-    /* margin-right: 1.5%; */
-    justify-content: center;
-}
-h1 {
-    margin-bottom: 2%;
-    /* font-size: 4vh; */
-    /* white-space:nowrap; */
-}
-.control {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-/* button {
-    width: 150%;;
-} */
-.b1, .b2 {
-    height: fit-content;
-    align-self: center;    
-}
-.b1 {
-    margin-right: 4%;
-}
-.b2 {
-    margin-left: 4%;
-}
-.adopterFeedback {
-    /* border: 4px double salmon; */
-    /* margin-top: 10%; */
-    margin-bottom: 2%;
-    text-align: justify;
-}
-.adopter {
-    display: flex;
-    /* border: 5px solid rebeccapurple; */
-    height: fit-content;
-    /* justify-content: center; */
-    align-items: center;
-}
-.adopterPicture {
-    /* border: 4px double fuchsia; */
-    width: 15%;
-    height: fit-content;
-    margin-left: 2%;
-    /* align-content: center; */
-    justify-content: center;
-}
-.adopterInfo {
-    /* border: 4px double palevioletred; */
-    /* height: ; */
-    font-size: 85%;
-    margin-left: 4%;
-}
-.third {
-    display: flex;
-    flex-direction: column;
-    /* border: 2px double gold; */
-    /* height: 40vh; */
-    background-color: #faf6e3;
-}
-.chanceTitle {
-    display: flex;
-    /* border: 2px dotted #2a3663; */
-    justify-content: center;
-    margin-top: 1%;
-}
-table {
-    text-align: center;
-}
-#petPic {
-    width: 70%;
-}
-
-
-iframe{
-    width: 100%;
-    height: 20vh;
-    border: none;
-}
 
 /* body{
     background-color: #000;
