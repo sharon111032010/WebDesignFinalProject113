@@ -8,6 +8,8 @@ const feedback = [
     { name:"蘇文博", contryC:"中國 四川省", contryE: "Sichuan, China", image:"img/index/male_4.png", article: "領養了一隻小倉鼠，它總是活潑好動，看著它小小的身影，我的心情也變得更輕鬆。這份陪伴讓我的生活更加有趣！"},
     { name:"許家豪", contryC:"中國 浙江省", contryE: "Zhejiang, China", image:"img/index/male_5.png", article: "領養了這隻小鳥，每天看著牠自在地飛翔，心情總是格外輕鬆。牠的歌聲讓我的日子充滿了歡樂，真心感謝這份禮物。"},
     { name:"何紫璇", contryC:"臺灣 屏東縣", contryE: "Pingtung, Taiwan", image:"img/index/female_4.png", article: "領養這隻老狗給了我新的生活意義。牠的溫柔與深情讓我明白，年齡並不是愛與陪伴的障礙，牠給了我不斷的驚喜和溫暖。"},
+    { name:"林美玲", contryC:"臺灣 台北市", contryE: "Taipei, Taiwan", image: "img/index/female_5.png", article: "領養這隻金魚讓我重新找回了心中的溫暖與平靜。牠的自由游動讓我學會如何放下壓力，專注於當下的每一刻。透過與牠的陪伴，我明白了愛與陪伴不一定是言語，而是存在於心與心之間的默契。"
+      }
 ]
 
 // const staffData = [
