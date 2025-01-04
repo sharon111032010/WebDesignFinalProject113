@@ -10,7 +10,7 @@
 /* 主背景：層次漸變 */
 body {
     /* background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117)); */
-    background: linear-gradient(to bottom, #727d73, #B6CBBD);
+    background: linear-gradient(to bottom,  #B6CBBD,#778da9);
     color: #2c3e50; /* 確保文字對比清晰 */
 }
 
@@ -19,8 +19,8 @@ body {
 .second {
     padding: 20px;
     text-align: center;
-    background-color: #D9DFC6;    /*增加層次感的背景色 */
-    color: #300c0c; 
+    background-color: #415a77;    /*增加層次感的背景色 */
+    color: #fff; /* 白色文字 */
     margin: 20px auto;
     border: 1px solid #355f3b; /* 深綠色邊框 */
     border-radius: 10px; /* 柔化邊緣 */
@@ -42,10 +42,10 @@ body {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background: linear-gradient(to top,  #4C585B, #657b84); /* 深淺漸變 */
+    background: linear-gradient(to bottom,  #33699c,#1b263b); /* 深淺漸變 */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 增加陰影 */
-    color: #ffffff; /* 保持文字清晰 */
+    color: #fff; /* 保持文字清晰 */
 }
 
 /* 左側內容樣式 */
@@ -57,13 +57,13 @@ body {
 /* 左側主標題的樣式 */
 .main_left h2 {
     font-size: 22px; /* 字體大小 */
-    color: #F4EDD3; /* 字體顏色 */
+    color: #eee; /* 字體顏色 */
     margin-bottom: 10px; /* 與下方內容的距離 */
 }
 
 .main_left h3 {
     font-size: 20px;
-    color: #cadaee;
+    color: #ccc;
     margin-top: 20px;
 }
 
