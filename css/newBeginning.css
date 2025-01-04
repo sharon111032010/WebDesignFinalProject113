@@ -7,86 +7,20 @@
     /* font-weight: 500; */
     /* font-family: sans-serif ; */
 } 
-/* body {
-    background-color: #faf6e3;
-} */
-.first {
-    display: flex;
-    height: 11vh;   /* 第一行占螢幕大小 */
-    justify-content: space-between;
-    margin-top: 0.25%;
-    margin-bottom: 2.5%;
-    background-color: #faf6e3;;
-    /* font-size: 700; */
-}
-.first_left{
-    /* border: 2px solid darkcyan; */
-    display: flex;
-    /* flex-direction: column; */
-    height: 100%;
-    width: 55%;
-    justify-content: flex-start;
-    /* align-items: center; */
-    /* background-color: rgb(40, 30, 147); */
-    /* align-self: center; */
-    text-align: center;
-}
-.logo {
-    /* width: 9%; */
-    align-content: center;
-    justify-content: center;
-    margin: 0% 5%;
-}
-.first_left_a {
-    display: flex;
-    width: 100%;
-    /* border: 2px solid firebrick; */
-    justify-content: space-around;
-}
-.first_right{
-    /* border: 2px solid crimson; */
-    display: flex;
-    justify-content: flex-end;
-    width: 25%;
-    height: 100%;
-    text-align: center;
-    margin-right: 3%;
-}
-.pageintr, .adopted, .fundraising {
-    /* border: 2px dotted hotpink; */
-    width: 25%;
-}
-.login, .signup{
-    width: 40%;
-}
-.logo:hover {
-    transform: scale(1.25);  /* 圖形放大 */
-    transition: all 0.5s;
-}
-a {
-    color: #2a3663;
-    font-weight: 600;
-}
-.line { /* 字體顏色 文字大小 */
-    align-content: center;  /* 上下置中 */
-    text-align: center;     /* 左右置中，但不一定位於正中間 */
-}
-.line:hover {   /* 鼠標放在上面的效果 */
-    /* background-color: #c4d669; */
-    background-color: #b59f78;
-    color:  #2a3663;
-    transition: all 0.5s;
-    transform: scale(1.1);  /* 圖形放大 */
-    font-size: larger;  /*  文字放大 */
-    font-weight: 1000;
+/* 主背景：層次漸變 */
+body {
+    /* background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117)); */
+    background: linear-gradient(to bottom, #727d73, #B6CBBD);
+    color: #2c3e50; /* 確保文字對比清晰 */
 }
 /* 第二部分樣式 */
 .second {
     padding: 20px;
     text-align: center;
-    background-color: #fefefe;
+    background-color: #D9DFC6;    /*增加層次感的背景色 */
+    color: #300c0c; 
     margin: 20px auto;
-    border: 1px solid #ddd;
+    border: 1px solid #355f3b; /* 深綠色邊框 */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 80%;
@@ -106,11 +40,13 @@ a {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background-color: #fff;
-    border: 1px solid #ddd;
+    background: linear-gradient(to top,  #4C585B, #657b84); /* 深淺漸變 */
+    /* border: 1px solid #ddd; */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     gap: 20px; /* 增加左右間距 */
+    color: #ffffff; /* 保持文字清晰 */
+
 }
 
 /* 左側主要內容 */
@@ -118,17 +54,20 @@ a {
     flex-basis: 60%; /* 固定左側寬度 */
     max-width: 600px;
     padding: 20px;
+    color: #cadaee;
+
+
 }
 
 .main_left h2 {
     font-size: 22px;
-    color: #2c3e50;
+    color: #F4EDD3; /* 字體顏色 */
     margin-bottom: 10px;
 }
 
 .main_left p {
     font-size: 16px;
-    color: #7f8c8d;
+    color: #fff;
     line-height: 1.6;
     margin-bottom: 10px;
 }
