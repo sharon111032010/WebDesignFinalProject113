@@ -39,7 +39,7 @@ header h3{
 .content{
     display: flex;
     justify-content:space-around;
-    color: rgb(84, 39, 39);
+    color: rgb(9, 17, 13);
     width: 1000px;
     height: 300px;
     
@@ -95,22 +95,22 @@ footer{
     justify-content: center;
 }
 .QuentionCon div a{
-    color: rgb(84, 39, 39);
+    color: rgb(9, 17, 13);
     border-radius: 20px;
     background-color: #e8e2e2;
     padding: 10px 20px 10px 20px;
 }
 .QuentionCon p{
     margin-bottom: 40px; 
-    color: rgb(84, 39, 39);
+    color:rgb(9, 17, 13);
 }
 .getStartBtn{
     display: flex;
     align-items: center;
 }
 .getStartBtn a{
-    color: #eae9ab;
-    background-color: #1d3557;
+    color: #fafcdb;
+    background-color: #5a6265;
     border-radius: 20px;
     padding: 15px 100px;
     margin-top: 40px;
