@@ -73,7 +73,7 @@ body {
     flex-basis: 80%; /* 固定右側寬度 */
     max-width: 500px;
     padding: 20px;
-    background: linear-gradient(to top,  #33699c,#183c5e); /* 深淺漸變 */
+    background: linear-gradient(to bottom,  #33699c,#183c5e); /* 深淺漸變 */
     border-left: 2px solid #163c5f;
     text-align: center;
     background-color: #fafafa;
