@@ -10,7 +10,7 @@
 /* 主背景：層次漸變 */
 body {
     /* background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117)); */
-    background: linear-gradient(to bottom,  #B6CBBD,#778da9);
+    background: linear-gradient(to top,  #B6CBBD,#778da9);
     color: #2c3e50; /* 確保文字對比清晰 */
 }
 
@@ -42,7 +42,7 @@ body {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background: linear-gradient(to bottom,  #33699c,#1b263b); /* 深淺漸變 */
+    background: linear-gradient(to top,  #33699c,#1b263b); /* 深淺漸變 */
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* 增加陰影 */
     color: #fff; /* 保持文字清晰 */

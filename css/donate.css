@@ -10,7 +10,7 @@
 
 body {
     /* background: linear-gradient(to bottom, rgb(87, 143, 102), rgb(117, 153, 117)); */
-    background: linear-gradient(to bottom,  #B6CBBD,#778da9);
+    background: linear-gradient(to top,  #B6CBBD,#778da9);
     color: #2c3e50; /* 確保文字對比清晰 */
 }
 /* 頁面內容 */

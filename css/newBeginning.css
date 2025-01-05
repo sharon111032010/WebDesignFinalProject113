@@ -9,7 +9,7 @@
 } 
 /* 主背景：層次漸變 */
 body {
-       background: linear-gradient(to bottom,  #B6CBBD,#778da9);
+       background: linear-gradient(to top,  #B6CBBD,#778da9);
     color: #2c3e50;
 }
 /* 第二部分樣式 */
@@ -38,7 +38,7 @@ body {
     padding: 20px;
     margin: 20px auto;
     width: 80%;
-    background: linear-gradient(to bottom,  #33699c,#1b263b);/* 深淺漸變 */
+    background: linear-gradient(to top,  #33699c,#1b263b);/* 深淺漸變 */
     border-radius: 5px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
     gap: 20px;
@@ -73,7 +73,7 @@ body {
     flex-basis: 80%; /* 固定右側寬度 */
     max-width: 500px;
     padding: 20px;
-    background: linear-gradient(to bottom,  #33699c,#183c5e); /* 深淺漸變 */
+    background: linear-gradient(to top,  #33699c,#183c5e); /* 深淺漸變 */
     border-left: 2px solid #163c5f;
     text-align: center;
     background-color: #fafafa;
@@ -153,5 +153,5 @@ body {
     font-size: 16px;
     color: #2c3e50;
     margin-top: 10px;
-    line-height: 1.5;
+    line-height: 1.5; 
 }
