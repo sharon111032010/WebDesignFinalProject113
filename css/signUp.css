@@ -4,8 +4,12 @@
     text-decoration: none;
     margin: 0px;
 }
+body {
+    background-color: #B6CBBD;
+}
 header{
-    background-color:#e9d250e1;
+    /* background-color:#e9d250e1; */
+    background-color: #727d73;
     height: 150px;
     display: flex;
     justify-content: center;
@@ -35,7 +39,7 @@ header h3{
 .content{
     display: flex;
     justify-content:space-around;
-    color: rgb(126, 119, 119);
+    color: rgb(84, 39, 39);
     width: 1000px;
     height: 300px;
     
@@ -44,7 +48,7 @@ header h3{
     border-radius: 15px;
     outline: none;
     border: 0px;
-    border: 1.5px solid #f9d0ad;
+    border: 1.5px solid #091d62;
     background-color:#eef8fc;
     background-color:#faf6e3;
     padding: 10px;
@@ -91,22 +95,22 @@ footer{
     justify-content: center;
 }
 .QuentionCon div a{
-    color: #7d7d7d;
+    color: rgb(84, 39, 39);
     border-radius: 20px;
     background-color: #e8e2e2;
     padding: 10px 20px 10px 20px;
 }
 .QuentionCon p{
     margin-bottom: 40px; 
-    color: #7d7d7d;
+    color: rgb(84, 39, 39);
 }
 .getStartBtn{
     display: flex;
     align-items: center;
 }
 .getStartBtn a{
-    color: #0d3b73;
-    background-color: #ffcf46;
+    color: #eae9ab;
+    background-color: #1d3557;
     border-radius: 20px;
     padding: 15px 100px;
     margin-top: 40px;
